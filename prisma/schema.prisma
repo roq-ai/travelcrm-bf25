@@ -1,0 +1,84 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model destination {
+  id              String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name            String       @db.VarChar(255)
+  description     String?      @db.VarChar(255)
+  location        String       @db.VarChar(255)
+  organization_id String       @db.Uuid
+  created_at      DateTime     @default(now()) @db.Timestamp(6)
+  updated_at      DateTime     @default(now()) @db.Timestamp(6)
+  organization    organization @relation(fields: [organization_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  itinerary       itinerary[]
+}
+
+model hotel {
+  id              String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name            String       @db.VarChar(255)
+  description     String?      @db.VarChar(255)
+  location        String       @db.VarChar(255)
+  rating          Int?
+  organization_id String       @db.Uuid
+  created_at      DateTime     @default(now()) @db.Timestamp(6)
+  updated_at      DateTime     @default(now()) @db.Timestamp(6)
+  organization    organization @relation(fields: [organization_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model itinerary {
+  id             String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  start_date     DateTime    @db.Date
+  end_date       DateTime    @db.Date
+  total_days     Int
+  total_pax      Int
+  user_id        String      @db.Uuid
+  destination_id String      @db.Uuid
+  created_at     DateTime    @default(now()) @db.Timestamp(6)
+  updated_at     DateTime    @default(now()) @db.Timestamp(6)
+  destination    destination @relation(fields: [destination_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user           user        @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  quote          quote[]
+}
+
+model organization {
+  id          String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description String?       @db.VarChar(255)
+  name        String        @db.VarChar(255)
+  created_at  DateTime      @default(now()) @db.Timestamp(6)
+  updated_at  DateTime      @default(now()) @db.Timestamp(6)
+  user_id     String        @db.Uuid
+  tenant_id   String        @db.VarChar(255)
+  destination destination[]
+  hotel       hotel[]
+  user        user          @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model quote {
+  id           String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  total_price  Int
+  itinerary_id String    @db.Uuid
+  created_at   DateTime  @default(now()) @db.Timestamp(6)
+  updated_at   DateTime  @default(now()) @db.Timestamp(6)
+  itinerary    itinerary @relation(fields: [itinerary_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model user {
+  id           String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email        String         @unique @db.VarChar(255)
+  firstName    String?        @db.VarChar(255)
+  lastName     String?        @db.VarChar(255)
+  roq_user_id  String         @db.VarChar(255)
+  tenant_id    String         @db.VarChar(255)
+  created_at   DateTime       @default(now()) @db.Timestamp(6)
+  updated_at   DateTime       @default(now()) @db.Timestamp(6)
+  itinerary    itinerary[]
+  organization organization[]
+}

@@ -1,0 +1,2422 @@
+[
+  {
+    "hotel": [
+      {
+        "id": "757d6bb8-8c9c-4882-b7b7-01c2c9695e6e",
+        "name": "Grand Plaza Hotel",
+        "description": "Luxurious hotel with stunning views of the city skyline",
+        "location": "New York, USA",
+        "rating": 24195,
+        "created_at": "2023-09-06T06:15:40.298Z",
+        "updated_at": "2023-09-05T14:57:37.099Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "87d484a0-b41a-437b-9243-7cc6941809ba",
+        "name": "Sunset Beach Resort",
+        "description": "Tropical resort with private beach access and spa facilities",
+        "location": "Bali, Indonesia",
+        "rating": 77563,
+        "created_at": "2023-09-05T18:19:53.411Z",
+        "updated_at": "2023-09-05T19:05:07.739Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0a3e98a1-8e3f-4294-8f5b-2186a470311c",
+        "name": "Mountain View Lodge",
+        "description": "Cozy lodge nestled in the mountains, perfect for nature lovers",
+        "location": "Aspen, Colorado, USA",
+        "rating": 32041,
+        "created_at": "2023-09-05T14:59:23.362Z",
+        "updated_at": "2023-09-06T03:12:03.515Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "14b77edf-758b-4242-ba32-e7a217c02571",
+        "name": "Ocean Breeze Inn",
+        "description": "Charming inn located steps away from the beach",
+        "location": "Cancun, Mexico",
+        "rating": 7494,
+        "created_at": "2023-09-06T07:24:09.475Z",
+        "updated_at": "2023-09-05T17:00:13.140Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b4b2ae11-90f2-4ec1-9495-3353af128aa0",
+        "name": "City Center Suites",
+        "description": "Modern suites in the heart of the city",
+        "location": "Paris, France",
+        "rating": 28117,
+        "created_at": "2023-09-05T14:13:38.991Z",
+        "updated_at": "2023-09-05T10:35:00.054Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "destination": [
+      {
+        "id": "d1c076c8-f0cc-4946-8312-1a3881b50e74",
+        "name": "Golden Gate Bridge",
+        "description": "Iconic bridge in San Francisco, known for its stunning architecture",
+        "location": "San Francisco, USA",
+        "created_at": "2023-09-05T16:45:46.070Z",
+        "updated_at": "2023-09-05T11:43:27.827Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "67f5ec97-56cd-48dc-90a7-a2d882f8beb0",
+        "name": "Great Barrier Reef",
+        "description": "World's largest coral reef system, offering breathtaking underwater beauty",
+        "location": "Queensland, Australia",
+        "created_at": "2023-09-05T21:29:02.470Z",
+        "updated_at": "2023-09-05T13:39:38.857Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1d619ea2-5587-4464-892f-9c4f84fb3c97",
+        "name": "Machu Picchu",
+        "description": "Ancient Inca citadel in Peru, a UNESCO World Heritage Site",
+        "location": "Cusco, Peru",
+        "created_at": "2023-09-05T19:48:49.882Z",
+        "updated_at": "2023-09-06T03:29:13.858Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2803f9f8-3c79-4288-9e5a-2818f88a8ced",
+        "name": "Serengeti National Park",
+        "description": "Famous wildlife reserve in Tanzania, home to the Great Migration",
+        "location": "Tanzania",
+        "created_at": "2023-09-05T09:38:49.494Z",
+        "updated_at": "2023-09-05T12:06:29.389Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3e8d1052-c687-49be-87f0-e18aab1fea1a",
+        "name": "Taj Mahal",
+        "description": "Symbol of love and devotion, an architectural marvel in India",
+        "location": "Agra, India",
+        "created_at": "2023-09-05T21:19:51.217Z",
+        "updated_at": "2023-09-05T14:12:00.824Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "itinerary": [
+      {
+        "id": "f1bce732-ab9a-476f-bc07-7614dff39cad",
+        "start_date": "2023-09-06T06:32:23.127Z",
+        "end_date": "2023-09-05T08:29:36.719Z",
+        "total_days": 15477,
+        "total_pax": 3941,
+        "created_at": "2023-09-06T06:16:47.191Z",
+        "updated_at": "2023-09-05T09:20:42.860Z",
+        "destination_id": "d1c076c8-f0cc-4946-8312-1a3881b50e74",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "723d6199-c32f-4e6a-9b57-57ad200fc06e",
+        "start_date": "2023-09-05T21:35:47.471Z",
+        "end_date": "2023-09-06T05:32:20.341Z",
+        "total_days": 70911,
+        "total_pax": 39751,
+        "created_at": "2023-09-05T11:35:54.128Z",
+        "updated_at": "2023-09-05T09:40:47.837Z",
+        "destination_id": "2803f9f8-3c79-4288-9e5a-2818f88a8ced",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc8fc6de-9bbd-4338-955a-3ff467fe4c44",
+        "start_date": "2023-09-06T02:40:25.628Z",
+        "end_date": "2023-09-05T08:32:04.671Z",
+        "total_days": 11498,
+        "total_pax": 43476,
+        "created_at": "2023-09-05T09:25:09.246Z",
+        "updated_at": "2023-09-06T02:10:36.930Z",
+        "destination_id": "67f5ec97-56cd-48dc-90a7-a2d882f8beb0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31534e28-6a35-4972-b66a-4fb83d7418ac",
+        "start_date": "2023-09-05T18:31:45.854Z",
+        "end_date": "2023-09-05T16:35:54.714Z",
+        "total_days": 90293,
+        "total_pax": 177,
+        "created_at": "2023-09-05T21:17:33.507Z",
+        "updated_at": "2023-09-06T00:11:42.861Z",
+        "destination_id": "1d619ea2-5587-4464-892f-9c4f84fb3c97",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9e2f064-2619-4564-aff7-756a75530f84",
+        "start_date": "2023-09-05T13:37:06.298Z",
+        "end_date": "2023-09-05T16:33:53.824Z",
+        "total_days": 88204,
+        "total_pax": 83842,
+        "created_at": "2023-09-06T00:48:52.678Z",
+        "updated_at": "2023-09-05T20:02:46.709Z",
+        "destination_id": "1d619ea2-5587-4464-892f-9c4f84fb3c97",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "quote": [
+      {
+        "id": "a4ff3ed2-0406-416c-b895-8c5bfd205b8a",
+        "total_price": 70616,
+        "created_at": "2023-09-06T06:37:15.374Z",
+        "updated_at": "2023-09-06T03:48:22.525Z",
+        "itinerary_id": "cc8fc6de-9bbd-4338-955a-3ff467fe4c44"
+      },
+      {
+        "id": "c7bc252a-b879-468b-b0d8-b42e54924ffd",
+        "total_price": 99281,
+        "created_at": "2023-09-06T06:10:37.152Z",
+        "updated_at": "2023-09-05T08:43:01.618Z",
+        "itinerary_id": "f1bce732-ab9a-476f-bc07-7614dff39cad"
+      },
+      {
+        "id": "437db739-e43a-4573-aae1-639ede37cb7e",
+        "total_price": 21517,
+        "created_at": "2023-09-05T09:26:36.763Z",
+        "updated_at": "2023-09-05T23:45:00.949Z",
+        "itinerary_id": "723d6199-c32f-4e6a-9b57-57ad200fc06e"
+      },
+      {
+        "id": "181368cf-779e-4d29-9e10-0ac74bb59d59",
+        "total_price": 68329,
+        "created_at": "2023-09-06T00:31:22.314Z",
+        "updated_at": "2023-09-05T23:36:08.827Z",
+        "itinerary_id": "cc8fc6de-9bbd-4338-955a-3ff467fe4c44"
+      },
+      {
+        "id": "c91bf26f-e700-4ae9-9306-c65e665a86c7",
+        "total_price": 69684,
+        "created_at": "2023-09-05T19:08:59.531Z",
+        "updated_at": "2023-09-06T01:07:50.957Z",
+        "itinerary_id": "31534e28-6a35-4972-b66a-4fb83d7418ac"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a283645-2eda-4369-91b1-be21c1120d53",
+        "email": "Alvis46@yahoo.com",
+        "firstName": "Jess",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5896416",
+        "tenantId": null
+      },
+      {
+        "reference": "67fbcb90-3ac7-4e6e-bacd-a9d4d6591a25",
+        "email": "Keanu_Huel15@hotmail.com",
+        "firstName": "Allen",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/868.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7e1aa61-ba65-4dc9-86bb-3f1d2c99d9d5",
+        "email": "Madge_Mraz@hotmail.com",
+        "firstName": "Edmond",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89957744",
+        "tenantId": null
+      },
+      {
+        "reference": "b65ea46c-d17b-4c83-acd4-0b32ea7077e9",
+        "email": "Jayme97@yahoo.com",
+        "firstName": "Leonel",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13047270",
+        "tenantId": null
+      },
+      {
+        "reference": "12958cc0-2913-4176-807c-9c63afa67aeb",
+        "email": "Ellie52@hotmail.com",
+        "firstName": "Adam",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97089712",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "54f0bf79-b58c-4308-bb67-902abce9a714",
+        "name": "Sunset Paradise Resort",
+        "description": "Experience luxury and relaxation at its finest",
+        "location": "Maldives",
+        "rating": 19069,
+        "created_at": "2023-09-06T05:53:02.224Z",
+        "updated_at": "2023-09-05T17:43:37.544Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d68d0368-9c0a-470e-806e-50433eb39c37",
+        "name": "Mountain View Hotel",
+        "description": "Enjoy breathtaking views and exceptional service",
+        "location": "Switzerland",
+        "rating": 7127,
+        "created_at": "2023-09-05T13:40:30.229Z",
+        "updated_at": "2023-09-05T16:20:22.964Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6ac7c442-b8e7-4867-93c8-c35fe2889689",
+        "name": "Seaside Retreat",
+        "description": "Indulge in a tranquil getaway surrounded by nature",
+        "location": "Thailand",
+        "rating": 20327,
+        "created_at": "2023-09-05T17:05:19.846Z",
+        "updated_at": "2023-09-05T17:44:40.924Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b17f1c2c-73a0-4046-b2b5-08a9e5ae21f5",
+        "name": "Urban Oasis Hotel",
+        "description": "Discover the vibrant city life and culture",
+        "location": "New York City",
+        "rating": 47113,
+        "created_at": "2023-09-05T20:36:54.189Z",
+        "updated_at": "2023-09-05T23:11:39.595Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "61f89487-4305-499b-b7cc-a20984c21ecd",
+        "name": "Luxury Lakeside Lodge",
+        "description": "Escape to a serene lakeside retreat",
+        "location": "Canada",
+        "rating": 63193,
+        "created_at": "2023-09-05T11:06:59.699Z",
+        "updated_at": "2023-09-06T04:48:37.115Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "destination": [
+      {
+        "id": "bf891138-2426-441d-aaff-6961e9d6b64b",
+        "name": "Tropical Island",
+        "description": "Discover a paradise filled with palm trees and crystal-clear waters",
+        "location": "Caribbean",
+        "created_at": "2023-09-06T05:57:33.609Z",
+        "updated_at": "2023-09-06T07:35:14.617Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7c93a356-7405-4319-85f4-40533a30ec17",
+        "name": "Snowy Mountains",
+        "description": "Embark on an exhilarating journey through snow-capped peaks",
+        "location": "Alps",
+        "created_at": "2023-09-05T10:21:09.456Z",
+        "updated_at": "2023-09-06T02:54:38.526Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "95c8978e-926f-419f-9023-7f470fcbd8bc",
+        "name": "Exotic Beach",
+        "description": "Relax on pristine sandy beaches and soak up the sun",
+        "location": "Maldives",
+        "created_at": "2023-09-05T10:03:25.650Z",
+        "updated_at": "2023-09-05T17:32:24.456Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4f6791ad-abd7-4799-aed4-5f2afa8f92a5",
+        "name": "City Adventure",
+        "description": "Immerse yourself in the vibrant culture and attractions of a bustling city",
+        "location": "Paris",
+        "created_at": "2023-09-05T20:19:07.496Z",
+        "updated_at": "2023-09-06T06:32:33.912Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c3e4a16c-ad45-4a5f-bbd3-37da3d26b87c",
+        "name": "Natural Wonders",
+        "description": "Witness awe-inspiring natural landscapes and breathtaking beauty",
+        "location": "Grand Canyon",
+        "created_at": "2023-09-05T15:16:49.870Z",
+        "updated_at": "2023-09-05T22:41:33.730Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "itinerary": [
+      {
+        "id": "48136b65-2d34-49c2-8c05-202d3336dffb",
+        "start_date": "2023-09-06T07:11:05.135Z",
+        "end_date": "2023-09-05T10:04:57.530Z",
+        "total_days": 97910,
+        "total_pax": 22393,
+        "created_at": "2023-09-05T13:33:20.481Z",
+        "updated_at": "2023-09-05T17:57:42.864Z",
+        "destination_id": "bf891138-2426-441d-aaff-6961e9d6b64b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75fe7f5b-8fa0-465d-9e84-f785e0aa519e",
+        "start_date": "2023-09-05T20:53:04.925Z",
+        "end_date": "2023-09-05T21:16:13.741Z",
+        "total_days": 55435,
+        "total_pax": 64206,
+        "created_at": "2023-09-05T22:47:41.602Z",
+        "updated_at": "2023-09-05T14:05:46.849Z",
+        "destination_id": "c3e4a16c-ad45-4a5f-bbd3-37da3d26b87c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b83af3b9-984b-441e-81ca-65583c119b3f",
+        "start_date": "2023-09-05T11:02:30.982Z",
+        "end_date": "2023-09-06T06:15:48.330Z",
+        "total_days": 26440,
+        "total_pax": 56554,
+        "created_at": "2023-09-06T06:38:01.319Z",
+        "updated_at": "2023-09-05T08:31:51.661Z",
+        "destination_id": "c3e4a16c-ad45-4a5f-bbd3-37da3d26b87c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d820722-e40b-46b0-8f59-02591417c59e",
+        "start_date": "2023-09-05T23:03:20.572Z",
+        "end_date": "2023-09-05T12:05:41.785Z",
+        "total_days": 98625,
+        "total_pax": 56596,
+        "created_at": "2023-09-05T21:10:59.079Z",
+        "updated_at": "2023-09-05T12:12:59.584Z",
+        "destination_id": "7c93a356-7405-4319-85f4-40533a30ec17",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "205f1e79-5f9a-4892-b0bd-0c3bbf081ae5",
+        "start_date": "2023-09-05T18:32:30.463Z",
+        "end_date": "2023-09-05T18:52:57.504Z",
+        "total_days": 53421,
+        "total_pax": 40280,
+        "created_at": "2023-09-05T19:27:04.829Z",
+        "updated_at": "2023-09-05T13:02:50.832Z",
+        "destination_id": "bf891138-2426-441d-aaff-6961e9d6b64b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "quote": [
+      {
+        "id": "53023696-b436-4390-9f1c-4deb597c5c38",
+        "total_price": 82989,
+        "created_at": "2023-09-05T11:13:34.000Z",
+        "updated_at": "2023-09-05T11:29:03.935Z",
+        "itinerary_id": "75fe7f5b-8fa0-465d-9e84-f785e0aa519e"
+      },
+      {
+        "id": "f91d1d99-bf61-4a5c-9d69-178280a597d4",
+        "total_price": 16679,
+        "created_at": "2023-09-05T13:40:36.029Z",
+        "updated_at": "2023-09-06T06:30:25.198Z",
+        "itinerary_id": "75fe7f5b-8fa0-465d-9e84-f785e0aa519e"
+      },
+      {
+        "id": "7a8ec6a9-f4f5-4545-a077-2bd73ad003f5",
+        "total_price": 99070,
+        "created_at": "2023-09-05T11:16:14.236Z",
+        "updated_at": "2023-09-06T05:05:49.444Z",
+        "itinerary_id": "b83af3b9-984b-441e-81ca-65583c119b3f"
+      },
+      {
+        "id": "e754de68-cbac-47b5-bc96-f8f49d1c5c89",
+        "total_price": 89525,
+        "created_at": "2023-09-05T13:51:52.534Z",
+        "updated_at": "2023-09-05T16:57:27.283Z",
+        "itinerary_id": "2d820722-e40b-46b0-8f59-02591417c59e"
+      },
+      {
+        "id": "21991d83-ed5f-4d0a-90ea-1725dabc970c",
+        "total_price": 43218,
+        "created_at": "2023-09-05T12:50:49.957Z",
+        "updated_at": "2023-09-06T04:33:55.165Z",
+        "itinerary_id": "75fe7f5b-8fa0-465d-9e84-f785e0aa519e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3b49b20f-30a5-4185-a037-f7167fef25b8",
+        "email": "Ashly_Langworth90@gmail.com",
+        "firstName": "Jesse",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84380621",
+        "tenantId": null
+      },
+      {
+        "reference": "fb5b3e1f-d5f8-4d84-9e83-3016af9e111a",
+        "email": "Dewayne15@gmail.com",
+        "firstName": "Luisa",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/729.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72cebceb-296a-4bd1-9199-f8fbe5c0bf05",
+        "email": "Janessa.Ritchie@hotmail.com",
+        "firstName": "Kiana",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99727617",
+        "tenantId": null
+      },
+      {
+        "reference": "78dbdc90-38fc-4c67-bc37-864bddea04f8",
+        "email": "Toni.Mohr@hotmail.com",
+        "firstName": "Augusta",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1058.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b13d0049-2ae9-449f-a372-d9580449e557",
+        "email": "Orland_Lindgren@yahoo.com",
+        "firstName": "Anastasia",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67486197",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "ae51c4c4-72dc-45f1-a1bd-ffc6ca86493d",
+        "name": "Sunset Resort",
+        "description": "A luxurious beachfront resort offering breathtaking views",
+        "location": "Malibu, California",
+        "rating": 34878,
+        "created_at": "2023-09-06T04:35:16.947Z",
+        "updated_at": "2023-09-05T17:23:49.009Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "932291e6-5288-4334-a120-ae5448c60e9f",
+        "name": "Golden Sands Hotel",
+        "description": "An elegant hotel with modern amenities and exceptional service",
+        "location": "Miami Beach, Florida",
+        "rating": 9367,
+        "created_at": "2023-09-05T12:22:52.250Z",
+        "updated_at": "2023-09-06T00:31:56.303Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5a1b331f-cc40-4a4d-89c5-00db716ca1d7",
+        "name": "Mountain View Lodge",
+        "description": "A cozy lodge nestled in the mountains, perfect for nature lovers",
+        "location": "Aspen, Colorado",
+        "rating": 95638,
+        "created_at": "2023-09-06T02:38:28.068Z",
+        "updated_at": "2023-09-05T15:18:40.328Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4c0ba259-654f-4f13-a067-f2c9d2437eaa",
+        "name": "Seaside Retreat",
+        "description": "A peaceful retreat by the sea, ideal for relaxation and tranquility",
+        "location": "Hawaii, USA",
+        "rating": 97872,
+        "created_at": "2023-09-05T12:28:22.950Z",
+        "updated_at": "2023-09-06T04:35:00.664Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8408708a-a725-498c-9cca-f9da19265eec",
+        "name": "City Lights Hotel",
+        "description": "A vibrant hotel located in the heart of the city, close to popular attractions",
+        "location": "New York City, New York",
+        "rating": 39960,
+        "created_at": "2023-09-05T18:24:50.191Z",
+        "updated_at": "2023-09-05T23:00:01.781Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "destination": [
+      {
+        "id": "b62afa62-0e0d-4f8a-9127-1c68c048adf2",
+        "name": "Tropical Paradise Island",
+        "description": "Escape to a tropical paradise with pristine beaches and crystal-clear waters",
+        "location": "Bora Bora, French Polynesia",
+        "created_at": "2023-09-05T13:25:40.451Z",
+        "updated_at": "2023-09-05T14:10:54.540Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9c21a331-83ff-4a4f-9d73-425b7360477a",
+        "name": "Historic City Tour",
+        "description": "Explore the rich history and architecture of a charming city",
+        "location": "Rome, Italy",
+        "created_at": "2023-09-05T19:26:29.943Z",
+        "updated_at": "2023-09-05T23:11:23.771Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ad2b6918-21c5-4132-af62-49e61c323d76",
+        "name": "Adventure Mountain Expedition",
+        "description": "Embark on an exhilarating mountain expedition with breathtaking views",
+        "location": "Machu Picchu, Peru",
+        "created_at": "2023-09-05T18:38:25.463Z",
+        "updated_at": "2023-09-05T23:28:37.512Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bae482ab-33f6-4311-a628-7c3f7bc8aff1",
+        "name": "Coastal Wildlife Safari",
+        "description": "Discover diverse wildlife and stunning coastal landscapes on a safari",
+        "location": "Cape Town, South Africa",
+        "created_at": "2023-09-05T22:30:26.403Z",
+        "updated_at": "2023-09-06T06:09:10.514Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "acb803a2-1876-4299-9fb1-44b50a3d2488",
+        "name": "Cultural Heritage Experience",
+        "description": "Immerse yourself in the vibrant culture and heritage of a fascinating destination",
+        "location": "Kyoto, Japan",
+        "created_at": "2023-09-05T21:58:44.524Z",
+        "updated_at": "2023-09-05T18:39:17.802Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "itinerary": [
+      {
+        "id": "604644ce-700d-407b-92b5-b1f725b2d54b",
+        "start_date": "2023-09-05T09:08:22.766Z",
+        "end_date": "2023-09-05T16:27:42.624Z",
+        "total_days": 88856,
+        "total_pax": 40,
+        "created_at": "2023-09-06T06:48:14.591Z",
+        "updated_at": "2023-09-06T02:16:09.367Z",
+        "destination_id": "ad2b6918-21c5-4132-af62-49e61c323d76",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee1a9f72-6609-4846-bd77-99ca66312cb6",
+        "start_date": "2023-09-05T13:38:55.879Z",
+        "end_date": "2023-09-05T20:23:25.170Z",
+        "total_days": 28428,
+        "total_pax": 16917,
+        "created_at": "2023-09-05T16:42:35.596Z",
+        "updated_at": "2023-09-05T13:41:25.405Z",
+        "destination_id": "b62afa62-0e0d-4f8a-9127-1c68c048adf2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c15b9b6-e3de-46f3-bf2f-3eba9c5e392f",
+        "start_date": "2023-09-06T02:09:31.281Z",
+        "end_date": "2023-09-06T01:13:30.876Z",
+        "total_days": 10286,
+        "total_pax": 38887,
+        "created_at": "2023-09-05T17:33:35.462Z",
+        "updated_at": "2023-09-06T07:00:38.720Z",
+        "destination_id": "bae482ab-33f6-4311-a628-7c3f7bc8aff1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9c35e42-86be-44f1-b019-3baf9956d885",
+        "start_date": "2023-09-06T02:07:37.036Z",
+        "end_date": "2023-09-05T23:01:35.943Z",
+        "total_days": 59443,
+        "total_pax": 47750,
+        "created_at": "2023-09-06T06:37:48.317Z",
+        "updated_at": "2023-09-05T08:27:41.907Z",
+        "destination_id": "9c21a331-83ff-4a4f-9d73-425b7360477a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f8c7c8f-6c26-46a6-a7f4-f1972f8b883e",
+        "start_date": "2023-09-05T23:43:35.219Z",
+        "end_date": "2023-09-05T14:50:47.300Z",
+        "total_days": 44423,
+        "total_pax": 91269,
+        "created_at": "2023-09-05T17:30:38.667Z",
+        "updated_at": "2023-09-05T22:15:08.553Z",
+        "destination_id": "acb803a2-1876-4299-9fb1-44b50a3d2488",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "quote": [
+      {
+        "id": "1e52b6c6-6e79-4a44-941a-f63529fa50f8",
+        "total_price": 27837,
+        "created_at": "2023-09-06T00:07:01.673Z",
+        "updated_at": "2023-09-05T18:59:00.108Z",
+        "itinerary_id": "7f8c7c8f-6c26-46a6-a7f4-f1972f8b883e"
+      },
+      {
+        "id": "e1496b57-d23f-4aa6-abe2-54cbcded13a5",
+        "total_price": 90920,
+        "created_at": "2023-09-05T08:27:47.877Z",
+        "updated_at": "2023-09-05T23:52:48.571Z",
+        "itinerary_id": "ee1a9f72-6609-4846-bd77-99ca66312cb6"
+      },
+      {
+        "id": "690ff324-789e-41d2-8bc4-db61c1c6f7f7",
+        "total_price": 98961,
+        "created_at": "2023-09-05T09:04:40.210Z",
+        "updated_at": "2023-09-06T02:35:07.673Z",
+        "itinerary_id": "ee1a9f72-6609-4846-bd77-99ca66312cb6"
+      },
+      {
+        "id": "31343d26-ea94-4b0b-8f57-881bbbde6641",
+        "total_price": 86938,
+        "created_at": "2023-09-06T05:08:59.286Z",
+        "updated_at": "2023-09-06T06:23:34.384Z",
+        "itinerary_id": "7f8c7c8f-6c26-46a6-a7f4-f1972f8b883e"
+      },
+      {
+        "id": "2920243d-56a0-4f41-8b69-05bf875ca765",
+        "total_price": 17137,
+        "created_at": "2023-09-06T06:44:49.477Z",
+        "updated_at": "2023-09-06T08:00:21.948Z",
+        "itinerary_id": "7f8c7c8f-6c26-46a6-a7f4-f1972f8b883e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e496ccb8-bd75-48cf-ac17-435e9db7293f",
+        "email": "Jadyn_Powlowski89@yahoo.com",
+        "firstName": "Dylan",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1107.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "206dad21-fcec-4cca-94e2-7c9fdb18dec6",
+        "email": "Isom_Auer@yahoo.com",
+        "firstName": "German",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47752989",
+        "tenantId": null
+      },
+      {
+        "reference": "5f54bcb2-9655-4289-b018-26fd429041e6",
+        "email": "Nelda71@yahoo.com",
+        "firstName": "Carroll",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/480.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5a5e10ab-19e9-4a3e-9eda-41545d979631",
+        "email": "Alanna.Mayer1@hotmail.com",
+        "firstName": "Phoebe",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15362124",
+        "tenantId": null
+      },
+      {
+        "reference": "d099d39b-db8d-4770-8957-501b0a1a1170",
+        "email": "Zackary.Mueller@yahoo.com",
+        "firstName": "Cierra",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29652530",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "c0940512-f7b8-4b2f-8d3c-e923b15e144b",
+        "name": "Grand Hotel",
+        "description": "Luxury hotel with stunning views",
+        "location": "New York",
+        "rating": 30633,
+        "created_at": "2023-09-06T03:02:26.229Z",
+        "updated_at": "2023-09-06T04:34:33.688Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "48d23baf-d270-4892-bc60-fb50e9036e71",
+        "name": "Sunset Resort",
+        "description": "Beachfront resort with multiple pools",
+        "location": "Miami",
+        "rating": 94067,
+        "created_at": "2023-09-05T13:27:08.375Z",
+        "updated_at": "2023-09-06T04:01:34.177Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4d106664-5924-46c2-a8a9-a32edfde53be",
+        "name": "Mountain View Lodge",
+        "description": "Cozy lodge nestled in the mountains",
+        "location": "Aspen",
+        "rating": 93651,
+        "created_at": "2023-09-05T20:32:57.624Z",
+        "updated_at": "2023-09-06T05:57:17.236Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "46d21807-ab21-40d6-9aa3-d8087bc29f06",
+        "name": "Seaside Inn",
+        "description": "Charming inn by the sea",
+        "location": "Hawaii",
+        "rating": 87389,
+        "created_at": "2023-09-05T14:19:31.067Z",
+        "updated_at": "2023-09-05T10:57:36.805Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "011c9a9b-9f8c-4cb4-9d87-3899a37ef6f3",
+        "name": "City Center Hotel",
+        "description": "Conveniently located hotel in the city center",
+        "location": "San Francisco",
+        "rating": 55353,
+        "created_at": "2023-09-05T20:18:53.533Z",
+        "updated_at": "2023-09-06T03:50:25.571Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "destination": [
+      {
+        "id": "9a1a71d3-c0fc-4807-9424-64c279fb3995",
+        "name": "Tropical Paradise",
+        "description": "Idyllic island with pristine beaches",
+        "location": "Maldives",
+        "created_at": "2023-09-05T19:09:43.645Z",
+        "updated_at": "2023-09-05T23:29:06.771Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5c389ccd-0d2e-4048-bea2-2c0a7ade186a",
+        "name": "Historic City",
+        "description": "City rich in history and architecture",
+        "location": "Rome",
+        "created_at": "2023-09-05T20:54:14.426Z",
+        "updated_at": "2023-09-05T17:42:35.294Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0fe31897-0a1b-46ec-a9be-a4520d70c537",
+        "name": "Adventure Island",
+        "description": "Thrilling destination for outdoor activities",
+        "location": "New Zealand",
+        "created_at": "2023-09-05T08:53:24.169Z",
+        "updated_at": "2023-09-05T16:44:26.128Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c20668ea-3935-4034-8f14-84b3aee9b360",
+        "name": "Nature Retreat",
+        "description": "Serene getaway surrounded by nature",
+        "location": "Costa Rica",
+        "created_at": "2023-09-06T06:46:46.974Z",
+        "updated_at": "2023-09-05T16:58:22.304Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4af33d3c-b3b2-455d-9a29-c159455e848f",
+        "name": "Cultural Capital",
+        "description": "Vibrant city known for its arts and culture",
+        "location": "Paris",
+        "created_at": "2023-09-06T04:48:39.217Z",
+        "updated_at": "2023-09-05T22:02:54.648Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "itinerary": [
+      {
+        "id": "8c748986-155c-445c-8cb9-e808c61aef68",
+        "start_date": "2023-09-06T01:22:11.542Z",
+        "end_date": "2023-09-05T20:58:24.825Z",
+        "total_days": 9350,
+        "total_pax": 78578,
+        "created_at": "2023-09-05T11:07:46.389Z",
+        "updated_at": "2023-09-06T06:36:27.937Z",
+        "destination_id": "5c389ccd-0d2e-4048-bea2-2c0a7ade186a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03de9773-214b-4baf-8cd3-f4718d1d53a4",
+        "start_date": "2023-09-05T13:24:46.100Z",
+        "end_date": "2023-09-05T23:52:15.692Z",
+        "total_days": 4044,
+        "total_pax": 61190,
+        "created_at": "2023-09-05T11:12:36.189Z",
+        "updated_at": "2023-09-06T03:49:40.601Z",
+        "destination_id": "9a1a71d3-c0fc-4807-9424-64c279fb3995",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1ad7b3f-71e0-4e41-9ee9-782d48174ed6",
+        "start_date": "2023-09-05T14:39:34.202Z",
+        "end_date": "2023-09-05T08:34:00.022Z",
+        "total_days": 46195,
+        "total_pax": 4764,
+        "created_at": "2023-09-06T07:59:25.081Z",
+        "updated_at": "2023-09-05T14:51:33.746Z",
+        "destination_id": "0fe31897-0a1b-46ec-a9be-a4520d70c537",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "470461bc-0dad-49a7-9530-daf2fe5ba176",
+        "start_date": "2023-09-05T13:12:50.227Z",
+        "end_date": "2023-09-05T19:55:24.979Z",
+        "total_days": 98283,
+        "total_pax": 5719,
+        "created_at": "2023-09-06T05:31:29.488Z",
+        "updated_at": "2023-09-06T00:04:36.745Z",
+        "destination_id": "0fe31897-0a1b-46ec-a9be-a4520d70c537",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf8a0beb-9cab-43eb-b911-8c93d003aa56",
+        "start_date": "2023-09-05T22:38:33.497Z",
+        "end_date": "2023-09-06T02:48:05.516Z",
+        "total_days": 46856,
+        "total_pax": 46041,
+        "created_at": "2023-09-05T12:43:05.430Z",
+        "updated_at": "2023-09-05T21:44:51.986Z",
+        "destination_id": "c20668ea-3935-4034-8f14-84b3aee9b360",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "quote": [
+      {
+        "id": "8ded7cee-1d37-4530-aeb0-d0b40f82d64b",
+        "total_price": 32647,
+        "created_at": "2023-09-06T05:09:24.421Z",
+        "updated_at": "2023-09-05T13:36:48.741Z",
+        "itinerary_id": "cf8a0beb-9cab-43eb-b911-8c93d003aa56"
+      },
+      {
+        "id": "37622650-fa64-413e-81cb-820d7bedc059",
+        "total_price": 63564,
+        "created_at": "2023-09-05T11:34:46.486Z",
+        "updated_at": "2023-09-06T06:03:05.123Z",
+        "itinerary_id": "8c748986-155c-445c-8cb9-e808c61aef68"
+      },
+      {
+        "id": "41305850-3f11-4ca4-9263-d4f61beda008",
+        "total_price": 15953,
+        "created_at": "2023-09-06T05:10:00.574Z",
+        "updated_at": "2023-09-05T13:23:09.529Z",
+        "itinerary_id": "03de9773-214b-4baf-8cd3-f4718d1d53a4"
+      },
+      {
+        "id": "2a088ccc-7af5-4a65-a1ec-aa5587eade5e",
+        "total_price": 35275,
+        "created_at": "2023-09-06T01:20:20.177Z",
+        "updated_at": "2023-09-06T00:18:20.143Z",
+        "itinerary_id": "03de9773-214b-4baf-8cd3-f4718d1d53a4"
+      },
+      {
+        "id": "cb9db627-dc98-455a-baa1-c498176815bd",
+        "total_price": 32298,
+        "created_at": "2023-09-05T14:01:59.430Z",
+        "updated_at": "2023-09-06T04:37:30.077Z",
+        "itinerary_id": "03de9773-214b-4baf-8cd3-f4718d1d53a4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6764a60d-bbc8-42b1-9f93-8eb9cca1a8d5",
+        "email": "Audrey.Wolf68@gmail.com",
+        "firstName": "Deonte",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/567.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fe5c3984-37fc-4a3f-92b5-d2a8bff957bf",
+        "email": "Christopher9@yahoo.com",
+        "firstName": "Valentin",
+        "lastName": "Cummerata-Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80941000",
+        "tenantId": null
+      },
+      {
+        "reference": "85bee1bc-fa79-485f-85f7-b4d7fc4f8345",
+        "email": "Cameron.Homenick@hotmail.com",
+        "firstName": "Thelma",
+        "lastName": "Feest-Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/49.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6191679f-2b68-40e1-9c29-d9a13e0235cb",
+        "email": "Herman.Wolf@yahoo.com",
+        "firstName": "Tatum",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74996925",
+        "tenantId": null
+      },
+      {
+        "reference": "78582fcd-9a35-4dbe-8cd7-b52c2580b972",
+        "email": "Adela96@hotmail.com",
+        "firstName": "Telly",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/205.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "497b509e-e227-47b1-8edd-960967774a87",
+        "name": "Sunset Beach Resort",
+        "description": "Luxurious beachfront resort with stunning views",
+        "location": "Maldives",
+        "rating": 84530,
+        "created_at": "2023-09-05T08:36:28.887Z",
+        "updated_at": "2023-09-05T21:28:18.775Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "337a80c8-6c2f-4469-a5aa-769cedc061a0",
+        "name": "Mountain View Lodge",
+        "description": "Cozy lodge nestled in the mountains",
+        "location": "Switzerland",
+        "rating": 5251,
+        "created_at": "2023-09-05T10:53:09.296Z",
+        "updated_at": "2023-09-06T01:51:33.567Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ce5c8346-53d8-4082-83e1-87066470b65e",
+        "name": "Ocean Breeze Hotel",
+        "description": "Seaside hotel with a relaxing atmosphere",
+        "location": "Thailand",
+        "rating": 70116,
+        "created_at": "2023-09-05T20:58:04.528Z",
+        "updated_at": "2023-09-05T21:34:34.560Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a1ab5a43-c0e7-4122-bdef-69ec097c2e8c",
+        "name": "Riverside Retreat",
+        "description": "Tranquil retreat by the river",
+        "location": "Canada",
+        "rating": 68707,
+        "created_at": "2023-09-05T19:20:26.940Z",
+        "updated_at": "2023-09-05T18:58:54.030Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2685ae96-93c3-481c-ad24-ce415187c73f",
+        "name": "Cityscape Suites",
+        "description": "Modern suites in the heart of the city",
+        "location": "United Arab Emirates",
+        "rating": 2936,
+        "created_at": "2023-09-06T01:10:58.716Z",
+        "updated_at": "2023-09-05T14:50:30.961Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "destination": [
+      {
+        "id": "7bca063c-8c83-4f52-8ced-d409c43c0100",
+        "name": "Paris",
+        "description": "Romantic city known for its art and culture",
+        "location": "France",
+        "created_at": "2023-09-05T09:53:23.541Z",
+        "updated_at": "2023-09-06T01:10:42.410Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f776b0c8-4851-4df4-9dbf-c47aaee93e01",
+        "name": "Tokyo",
+        "description": "Bustling metropolis with a mix of tradition and modernity",
+        "location": "Japan",
+        "created_at": "2023-09-06T00:32:09.636Z",
+        "updated_at": "2023-09-05T12:16:57.794Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d2535b85-0bbf-430c-b9b2-4093ae6a9ae3",
+        "name": "Bali",
+        "description": "Tropical paradise with stunning beaches and vibrant nightlife",
+        "location": "Indonesia",
+        "created_at": "2023-09-06T06:21:20.046Z",
+        "updated_at": "2023-09-05T21:26:20.040Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b188b4ae-51ec-4ef3-b6e3-53dbfcced1c4",
+        "name": "New York",
+        "description": "Cosmopolitan city famous for its iconic landmarks",
+        "location": "United States",
+        "created_at": "2023-09-06T07:31:41.199Z",
+        "updated_at": "2023-09-05T08:46:12.501Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "31241569-cac4-4423-98d7-c7fb513f831b",
+        "name": "Cape Town",
+        "description": "Scenic coastal city with diverse wildlife and natural beauty",
+        "location": "South Africa",
+        "created_at": "2023-09-05T18:17:22.776Z",
+        "updated_at": "2023-09-06T02:49:45.270Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "itinerary": [
+      {
+        "id": "b14bf338-407b-4028-a073-7ed1f1db99fe",
+        "start_date": "2023-09-05T14:12:40.776Z",
+        "end_date": "2023-09-05T23:10:31.778Z",
+        "total_days": 13781,
+        "total_pax": 99207,
+        "created_at": "2023-09-06T06:49:47.730Z",
+        "updated_at": "2023-09-05T15:42:50.630Z",
+        "destination_id": "b188b4ae-51ec-4ef3-b6e3-53dbfcced1c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15d6a822-6ab8-4019-9cda-d56b997af55f",
+        "start_date": "2023-09-05T14:44:05.897Z",
+        "end_date": "2023-09-06T02:32:10.450Z",
+        "total_days": 80989,
+        "total_pax": 1790,
+        "created_at": "2023-09-06T03:51:29.470Z",
+        "updated_at": "2023-09-06T07:44:38.188Z",
+        "destination_id": "31241569-cac4-4423-98d7-c7fb513f831b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7ce6172-7e35-46b9-9878-1295baeb9a12",
+        "start_date": "2023-09-05T18:08:01.348Z",
+        "end_date": "2023-09-06T01:02:09.949Z",
+        "total_days": 66216,
+        "total_pax": 25866,
+        "created_at": "2023-09-06T02:48:19.422Z",
+        "updated_at": "2023-09-06T06:13:42.157Z",
+        "destination_id": "b188b4ae-51ec-4ef3-b6e3-53dbfcced1c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e911336-1870-442a-8724-56ade12a3cab",
+        "start_date": "2023-09-05T09:28:15.416Z",
+        "end_date": "2023-09-05T15:43:44.036Z",
+        "total_days": 80285,
+        "total_pax": 32372,
+        "created_at": "2023-09-06T05:06:07.616Z",
+        "updated_at": "2023-09-05T19:50:22.560Z",
+        "destination_id": "31241569-cac4-4423-98d7-c7fb513f831b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1acf3b16-8701-43da-aa57-b65437f7a765",
+        "start_date": "2023-09-05T21:46:53.539Z",
+        "end_date": "2023-09-06T08:03:00.179Z",
+        "total_days": 6931,
+        "total_pax": 60612,
+        "created_at": "2023-09-05T13:53:53.173Z",
+        "updated_at": "2023-09-05T14:11:06.105Z",
+        "destination_id": "31241569-cac4-4423-98d7-c7fb513f831b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "quote": [
+      {
+        "id": "25cdc271-465d-4741-99b0-24b4d1f33522",
+        "total_price": 62413,
+        "created_at": "2023-09-05T20:59:37.757Z",
+        "updated_at": "2023-09-05T14:03:36.848Z",
+        "itinerary_id": "9e911336-1870-442a-8724-56ade12a3cab"
+      },
+      {
+        "id": "31eaaebe-39a3-40d9-b0b5-74662fa17e4f",
+        "total_price": 60970,
+        "created_at": "2023-09-05T22:36:37.976Z",
+        "updated_at": "2023-09-06T03:08:52.252Z",
+        "itinerary_id": "9e911336-1870-442a-8724-56ade12a3cab"
+      },
+      {
+        "id": "8d7093f9-6c01-4681-8371-0daaba603fef",
+        "total_price": 32148,
+        "created_at": "2023-09-05T09:44:40.632Z",
+        "updated_at": "2023-09-06T05:54:59.024Z",
+        "itinerary_id": "a7ce6172-7e35-46b9-9878-1295baeb9a12"
+      },
+      {
+        "id": "b1854a44-c8a2-405a-b45a-ced58df52f23",
+        "total_price": 3786,
+        "created_at": "2023-09-05T18:32:05.570Z",
+        "updated_at": "2023-09-06T06:26:22.699Z",
+        "itinerary_id": "1acf3b16-8701-43da-aa57-b65437f7a765"
+      },
+      {
+        "id": "b3448cbb-a081-4d90-ac19-60639eca305f",
+        "total_price": 53915,
+        "created_at": "2023-09-05T17:12:58.607Z",
+        "updated_at": "2023-09-06T05:14:31.457Z",
+        "itinerary_id": "15d6a822-6ab8-4019-9cda-d56b997af55f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f6638ba5-4951-4751-88a2-7eea44f693c2",
+        "email": "Brian.Koepp@gmail.com",
+        "firstName": "Virginie",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66754755",
+        "tenantId": null
+      },
+      {
+        "reference": "e0a6ba5c-423b-4bfc-8d79-cc6e3f2e038a",
+        "email": "Claudie7@hotmail.com",
+        "firstName": "Toby",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/519.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "018f5ff9-146c-410f-b700-cb7c1f6b330e",
+        "email": "Therese98@yahoo.com",
+        "firstName": "Easton",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/376.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1eeedb29-d016-4f6c-ad0a-c6ebecf0054c",
+        "email": "Vincent.Mraz@gmail.com",
+        "firstName": "Tremaine",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1141.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bef14317-7c79-4c06-84c8-538926e3d63e",
+        "email": "Morris_Shields@gmail.com",
+        "firstName": "Neal",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/551.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "8774b91f-67f8-4f8b-be84-f4aceea90c0c",
+        "name": "Sunset Paradise Resort",
+        "description": "Experience luxury and tranquility at its finest",
+        "location": "Maldives",
+        "rating": 84710,
+        "created_at": "2023-09-05T23:34:36.082Z",
+        "updated_at": "2023-09-06T06:20:31.102Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7f98f36c-8daa-4417-b55c-a970d6714ba0",
+        "name": "Harmony Boutique Hotel",
+        "description": "Indulge in breathtaking views and world-class amenities",
+        "location": "Santorini, Greece",
+        "rating": 58468,
+        "created_at": "2023-09-05T20:56:28.589Z",
+        "updated_at": "2023-09-05T14:30:35.969Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "702b04bf-55ff-44ae-ba81-3fa0ffab428f",
+        "name": "Ocean View Retreat",
+        "description": "Escape to a peaceful oasis surrounded by nature",
+        "location": "Bora Bora, French Polynesia",
+        "rating": 4690,
+        "created_at": "2023-09-06T06:19:33.271Z",
+        "updated_at": "2023-09-05T22:39:54.927Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6f83242b-e19f-46a3-8e0a-6dfe0db3fc29",
+        "name": "Mountain Haven Lodge",
+        "description": "Discover the perfect getaway for relaxation and adventure",
+        "location": "Aspen, Colorado, USA",
+        "rating": 31182,
+        "created_at": "2023-09-05T11:59:47.208Z",
+        "updated_at": "2023-09-05T14:59:37.996Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d11c657b-975e-4594-b1bc-4821ab6b598c",
+        "name": "Serenity Spa Resort",
+        "description": "Immerse yourself in serenity and rejuvenation",
+        "location": "Ubud, Bali, Indonesia",
+        "rating": 99427,
+        "created_at": "2023-09-05T20:58:26.256Z",
+        "updated_at": "2023-09-06T07:23:30.496Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "destination": [
+      {
+        "id": "cbfe223e-48f5-4663-bbbc-58e110a0239f",
+        "name": "Paris, France",
+        "description": "Explore the romantic streets and iconic landmarks of Paris",
+        "location": "48.8566° N, 2.3522° E",
+        "created_at": "2023-09-05T16:01:12.480Z",
+        "updated_at": "2023-09-05T10:05:13.506Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ea537296-7b32-478a-993f-8c3f70b3e0be",
+        "name": "Tokyo, Japan",
+        "description": "Discover the vibrant culture and futuristic technology of Tokyo",
+        "location": "35.6895° N, 139.6917° E",
+        "created_at": "2023-09-06T01:12:36.920Z",
+        "updated_at": "2023-09-05T19:10:35.695Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0da1c92f-b45f-4440-8d24-02a7f0951ccf",
+        "name": "Cape Town, South Africa",
+        "description": "Experience the breathtaking beauty of Cape Town's landscapes",
+        "location": "33.9249° S, 18.4241° E",
+        "created_at": "2023-09-05T19:30:56.044Z",
+        "updated_at": "2023-09-06T00:15:46.397Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6ff6a390-d486-4677-b1ed-90570ce77c5d",
+        "name": "Rio de Janeiro, Brazil",
+        "description": "Immerse yourself in the lively atmosphere of Rio de Janeiro",
+        "location": "22.9068° S, 43.1729° W",
+        "created_at": "2023-09-05T20:34:30.902Z",
+        "updated_at": "2023-09-05T23:57:07.074Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "53f8839f-f605-4570-bab3-c7e65c828d97",
+        "name": "Sydney, Australia",
+        "description": "Indulge in the coastal charm and vibrant city life of Sydney",
+        "location": "33.8688° S, 151.2093° E",
+        "created_at": "2023-09-05T11:46:18.204Z",
+        "updated_at": "2023-09-05T22:59:50.809Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "itinerary": [
+      {
+        "id": "16c87fb9-256f-4cfb-b8d0-08c691fc343a",
+        "start_date": "2023-09-05T15:05:39.820Z",
+        "end_date": "2023-09-05T13:16:42.808Z",
+        "total_days": 86594,
+        "total_pax": 92284,
+        "created_at": "2023-09-05T22:43:22.513Z",
+        "updated_at": "2023-09-05T23:41:39.172Z",
+        "destination_id": "53f8839f-f605-4570-bab3-c7e65c828d97",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fac6f69f-3e52-4299-a0b3-b9de7a169a2b",
+        "start_date": "2023-09-05T18:56:10.190Z",
+        "end_date": "2023-09-05T09:57:32.678Z",
+        "total_days": 16926,
+        "total_pax": 79504,
+        "created_at": "2023-09-06T05:47:02.883Z",
+        "updated_at": "2023-09-06T03:38:36.129Z",
+        "destination_id": "6ff6a390-d486-4677-b1ed-90570ce77c5d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9aefe878-d692-4ef3-b75e-76871e500c50",
+        "start_date": "2023-09-06T05:58:37.749Z",
+        "end_date": "2023-09-05T18:41:16.282Z",
+        "total_days": 70494,
+        "total_pax": 34050,
+        "created_at": "2023-09-05T22:42:03.527Z",
+        "updated_at": "2023-09-06T05:22:24.829Z",
+        "destination_id": "ea537296-7b32-478a-993f-8c3f70b3e0be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef2f2e79-1008-4fd8-93ef-c5ca8b8a6b5a",
+        "start_date": "2023-09-05T09:55:57.593Z",
+        "end_date": "2023-09-06T06:52:50.233Z",
+        "total_days": 30751,
+        "total_pax": 14504,
+        "created_at": "2023-09-05T23:05:15.911Z",
+        "updated_at": "2023-09-05T09:41:01.842Z",
+        "destination_id": "cbfe223e-48f5-4663-bbbc-58e110a0239f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5aaf52e-d9f7-433f-a0ab-d7c813e0a0c0",
+        "start_date": "2023-09-05T20:36:29.900Z",
+        "end_date": "2023-09-06T04:09:20.566Z",
+        "total_days": 1903,
+        "total_pax": 33734,
+        "created_at": "2023-09-05T21:06:39.816Z",
+        "updated_at": "2023-09-05T17:50:07.966Z",
+        "destination_id": "6ff6a390-d486-4677-b1ed-90570ce77c5d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "quote": [
+      {
+        "id": "8790009f-e68e-41c3-9e95-91fddf53df5e",
+        "total_price": 75917,
+        "created_at": "2023-09-05T22:32:14.508Z",
+        "updated_at": "2023-09-06T06:53:43.947Z",
+        "itinerary_id": "9aefe878-d692-4ef3-b75e-76871e500c50"
+      },
+      {
+        "id": "c2f5409c-8420-4356-85ab-ef9a168ba4ca",
+        "total_price": 20127,
+        "created_at": "2023-09-06T05:06:22.134Z",
+        "updated_at": "2023-09-05T18:29:36.995Z",
+        "itinerary_id": "16c87fb9-256f-4cfb-b8d0-08c691fc343a"
+      },
+      {
+        "id": "c4a0c424-9f56-48dc-954f-fd5327db2310",
+        "total_price": 31600,
+        "created_at": "2023-09-05T18:03:04.568Z",
+        "updated_at": "2023-09-05T23:19:24.172Z",
+        "itinerary_id": "9aefe878-d692-4ef3-b75e-76871e500c50"
+      },
+      {
+        "id": "475fb88f-fea7-45e9-87df-c61ddcd7ff7f",
+        "total_price": 21159,
+        "created_at": "2023-09-05T21:03:40.447Z",
+        "updated_at": "2023-09-05T21:26:26.827Z",
+        "itinerary_id": "9aefe878-d692-4ef3-b75e-76871e500c50"
+      },
+      {
+        "id": "7b8f05f7-28ed-4004-a4ba-db8c37277250",
+        "total_price": 22169,
+        "created_at": "2023-09-06T04:38:31.590Z",
+        "updated_at": "2023-09-05T23:10:39.925Z",
+        "itinerary_id": "c5aaf52e-d9f7-433f-a0ab-d7c813e0a0c0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fd511208-9f48-4105-8db2-3d3033e9e9cb",
+        "email": "Tevin18@gmail.com",
+        "firstName": "Ruben",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1045.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b3671e5a-fd48-47ef-add3-9de28092448c",
+        "email": "Glenda27@hotmail.com",
+        "firstName": "Alberta",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/829.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ddaad109-a148-41e5-bc3d-5a7b0f0b159d",
+        "email": "Ray.Predovic@gmail.com",
+        "firstName": "Patrick",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13991626",
+        "tenantId": null
+      },
+      {
+        "reference": "3578208b-e3d4-41ec-8c17-a0bb1ed25a5b",
+        "email": "Kamron.Halvorson30@yahoo.com",
+        "firstName": "Brook",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2800114",
+        "tenantId": null
+      },
+      {
+        "reference": "59ffe7b5-3d1a-4bc8-815b-1e85e5de0a05",
+        "email": "Margaret83@yahoo.com",
+        "firstName": "Celestino",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/670.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "cc931f7c-0413-4b43-a83d-7d7f40c49abe",
+        "name": "Sunset Resort",
+        "description": "A luxurious beachfront resort with stunning views",
+        "location": "Malibu, California",
+        "rating": 68509,
+        "created_at": "2023-09-05T12:05:29.027Z",
+        "updated_at": "2023-09-05T09:41:42.901Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "60b26407-17f6-4c13-b6a1-466d8d4b96ec",
+        "name": "Mountain View Lodge",
+        "description": "A cozy lodge nestled in the mountains",
+        "location": "Aspen, Colorado",
+        "rating": 81495,
+        "created_at": "2023-09-05T14:12:18.469Z",
+        "updated_at": "2023-09-06T01:05:56.286Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7abcef6d-61db-4bac-943c-511dbe6b134f",
+        "name": "Ocean Breeze Hotel",
+        "description": "A stylish hotel overlooking the ocean",
+        "location": "Miami Beach, Florida",
+        "rating": 96319,
+        "created_at": "2023-09-05T20:01:27.186Z",
+        "updated_at": "2023-09-05T12:59:18.177Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9bf8f3fd-1c53-401f-b8b0-1d96fbaddbf2",
+        "name": "City Lights Inn",
+        "description": "A boutique inn in the heart of the city",
+        "location": "New York City, New York",
+        "rating": 88265,
+        "created_at": "2023-09-05T20:46:43.199Z",
+        "updated_at": "2023-09-05T12:12:45.503Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ba076eb2-3f77-45e1-8be6-39b8d42acbdb",
+        "name": "Paradise Retreat",
+        "description": "A serene retreat surrounded by nature",
+        "location": "Bali, Indonesia",
+        "rating": 36252,
+        "created_at": "2023-09-06T04:49:09.206Z",
+        "updated_at": "2023-09-06T06:14:40.939Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "destination": [
+      {
+        "id": "2253cb1d-bf00-44fd-86d4-d224ecb0276f",
+        "name": "Santorini",
+        "description": "A picturesque island with breathtaking sunsets",
+        "location": "Greece",
+        "created_at": "2023-09-06T01:10:51.726Z",
+        "updated_at": "2023-09-06T04:04:12.251Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4a4f7ab5-0837-4bf5-b440-31e4c3573138",
+        "name": "Machu Picchu",
+        "description": "An ancient Incan city nestled in the mountains",
+        "location": "Peru",
+        "created_at": "2023-09-06T04:07:30.411Z",
+        "updated_at": "2023-09-06T06:43:53.005Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "004d5caa-ee56-479d-9e42-0d3208de741b",
+        "name": "Great Barrier Reef",
+        "description": "A natural wonder teeming with marine life",
+        "location": "Australia",
+        "created_at": "2023-09-06T07:23:04.692Z",
+        "updated_at": "2023-09-06T06:54:53.771Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1b77d319-ecbc-4331-8d98-ca244c6834d8",
+        "name": "Paris",
+        "description": "The romantic capital of France",
+        "location": "France",
+        "created_at": "2023-09-05T11:04:35.311Z",
+        "updated_at": "2023-09-05T09:19:40.281Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "615fc6d3-1e02-4a8d-a902-6f9ec39cc1c8",
+        "name": "Tokyo",
+        "description": "A vibrant metropolis blending tradition and modernity",
+        "location": "Japan",
+        "created_at": "2023-09-05T18:31:35.331Z",
+        "updated_at": "2023-09-05T22:48:59.796Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "itinerary": [
+      {
+        "id": "aa833c90-ccea-4dab-866f-c3ff19e61f20",
+        "start_date": "2023-09-06T06:57:52.999Z",
+        "end_date": "2023-09-05T20:03:10.763Z",
+        "total_days": 49185,
+        "total_pax": 73069,
+        "created_at": "2023-09-06T03:53:20.201Z",
+        "updated_at": "2023-09-05T09:20:26.380Z",
+        "destination_id": "4a4f7ab5-0837-4bf5-b440-31e4c3573138",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2539949-17de-4665-bacb-eb5c61265302",
+        "start_date": "2023-09-05T18:36:24.259Z",
+        "end_date": "2023-09-05T13:35:33.944Z",
+        "total_days": 11450,
+        "total_pax": 6937,
+        "created_at": "2023-09-05T12:11:00.260Z",
+        "updated_at": "2023-09-06T05:37:57.605Z",
+        "destination_id": "615fc6d3-1e02-4a8d-a902-6f9ec39cc1c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b7fd05e-1492-44be-8a4d-ed8aa1b43892",
+        "start_date": "2023-09-05T09:02:16.066Z",
+        "end_date": "2023-09-06T01:21:29.979Z",
+        "total_days": 441,
+        "total_pax": 95067,
+        "created_at": "2023-09-06T02:14:07.087Z",
+        "updated_at": "2023-09-06T01:05:24.129Z",
+        "destination_id": "004d5caa-ee56-479d-9e42-0d3208de741b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9387ee43-ff39-4cfd-a88f-c6ee8770264b",
+        "start_date": "2023-09-05T13:47:09.937Z",
+        "end_date": "2023-09-05T13:36:09.293Z",
+        "total_days": 54624,
+        "total_pax": 24316,
+        "created_at": "2023-09-06T01:50:03.796Z",
+        "updated_at": "2023-09-05T14:49:57.717Z",
+        "destination_id": "4a4f7ab5-0837-4bf5-b440-31e4c3573138",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79500b48-5d3f-4774-8f55-8d3755c2982d",
+        "start_date": "2023-09-06T03:06:52.198Z",
+        "end_date": "2023-09-06T00:23:14.179Z",
+        "total_days": 51449,
+        "total_pax": 26389,
+        "created_at": "2023-09-06T07:27:00.814Z",
+        "updated_at": "2023-09-06T01:50:41.839Z",
+        "destination_id": "1b77d319-ecbc-4331-8d98-ca244c6834d8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "quote": [
+      {
+        "id": "a9378b49-ad16-4ebe-8494-02884ff7a584",
+        "total_price": 28032,
+        "created_at": "2023-09-05T10:49:18.297Z",
+        "updated_at": "2023-09-06T00:28:20.272Z",
+        "itinerary_id": "9387ee43-ff39-4cfd-a88f-c6ee8770264b"
+      },
+      {
+        "id": "cc1babec-8daf-4353-9245-5e52263ec1cf",
+        "total_price": 86784,
+        "created_at": "2023-09-06T05:53:25.771Z",
+        "updated_at": "2023-09-05T10:08:06.555Z",
+        "itinerary_id": "9387ee43-ff39-4cfd-a88f-c6ee8770264b"
+      },
+      {
+        "id": "a15a6f50-ba06-4f27-9c20-664157d40742",
+        "total_price": 89966,
+        "created_at": "2023-09-06T04:13:31.585Z",
+        "updated_at": "2023-09-05T13:18:04.587Z",
+        "itinerary_id": "a2539949-17de-4665-bacb-eb5c61265302"
+      },
+      {
+        "id": "54376db5-746e-4aae-90a6-d808c0ba3b0f",
+        "total_price": 87729,
+        "created_at": "2023-09-05T09:53:00.292Z",
+        "updated_at": "2023-09-05T14:08:22.799Z",
+        "itinerary_id": "9387ee43-ff39-4cfd-a88f-c6ee8770264b"
+      },
+      {
+        "id": "15751844-0d73-43b5-a6cb-e551fd6372b0",
+        "total_price": 86961,
+        "created_at": "2023-09-05T22:15:56.184Z",
+        "updated_at": "2023-09-05T22:30:44.094Z",
+        "itinerary_id": "9387ee43-ff39-4cfd-a88f-c6ee8770264b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f38b2fac-2de9-499e-ba24-47df3e88bcbd",
+        "email": "Tobin84@hotmail.com",
+        "firstName": "Audreanne",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27734536",
+        "tenantId": null
+      },
+      {
+        "reference": "58ac9db0-f68b-49cb-9089-ef72d2e10ca9",
+        "email": "Claudia_Reichert23@gmail.com",
+        "firstName": "Marcia",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/981.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2d34d9f4-b0df-47a2-8d83-22f896421a13",
+        "email": "Murphy_Miller28@hotmail.com",
+        "firstName": "Antonina",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25421510",
+        "tenantId": null
+      },
+      {
+        "reference": "ea1bde63-06b6-4786-8760-6440f70d7759",
+        "email": "Johnathan3@yahoo.com",
+        "firstName": "Natasha",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31249902",
+        "tenantId": null
+      },
+      {
+        "reference": "7a27bb2c-a32a-47ac-88b5-25a691c4090c",
+        "email": "Donny13@yahoo.com",
+        "firstName": "Joannie",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/124.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "a9c0241b-8a91-4c85-9564-9fd7f6616797",
+        "name": "Sunset Paradise Resort",
+        "description": "A luxurious beachfront resort offering stunning views of the sunset",
+        "location": "Maldives",
+        "rating": 30293,
+        "created_at": "2023-09-05T12:11:28.704Z",
+        "updated_at": "2023-09-06T03:33:59.089Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "40b903c6-2ad6-4a56-a8c7-9bd0eef181a8",
+        "name": "Grand City Hotel",
+        "description": "A modern hotel located in the heart of the city",
+        "location": "New York City",
+        "rating": 2992,
+        "created_at": "2023-09-05T23:27:51.790Z",
+        "updated_at": "2023-09-05T19:08:59.805Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a4652dbd-e1e5-4596-a30c-24d0cfdcaa37",
+        "name": "Mountain View Lodge",
+        "description": "A cozy lodge nestled in the mountains",
+        "location": "Swiss Alps",
+        "rating": 86562,
+        "created_at": "2023-09-06T04:31:53.185Z",
+        "updated_at": "2023-09-05T10:42:05.972Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "71c2f917-9a6d-4cc7-87a0-c19e9cea4bb9",
+        "name": "Ocean Breeze Inn",
+        "description": "A charming inn with a refreshing ocean breeze",
+        "location": "Hawaii",
+        "rating": 67209,
+        "created_at": "2023-09-05T18:33:41.844Z",
+        "updated_at": "2023-09-05T20:01:47.737Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1bad9edb-0fb4-467c-82e0-c079b0191d56",
+        "name": "Riverside Retreat",
+        "description": "A peaceful retreat by the riverside",
+        "location": "Countryside, England",
+        "rating": 88430,
+        "created_at": "2023-09-05T17:14:42.078Z",
+        "updated_at": "2023-09-05T17:49:00.647Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "destination": [
+      {
+        "id": "dad37c6a-da68-415b-8fdb-dd7a022d8d49",
+        "name": "Tropical Paradise Island",
+        "description": "Experience the beauty of a tropical paradise with crystal-clear waters and white sandy beaches",
+        "location": "Maldives",
+        "created_at": "2023-09-06T03:23:44.821Z",
+        "updated_at": "2023-09-05T12:12:44.830Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "61f2349a-43cf-4474-b666-72c13779e511",
+        "name": "Historic Old Town",
+        "description": "Explore the rich history and architecture of an old town",
+        "location": "Rome, Italy",
+        "created_at": "2023-09-06T07:07:03.573Z",
+        "updated_at": "2023-09-06T02:31:20.331Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "149f850d-91ce-4082-b881-0c85ea242885",
+        "name": "Snowy Mountain Peaks",
+        "description": "Embark on an adventure to conquer snowy mountain peaks",
+        "location": "Swiss Alps",
+        "created_at": "2023-09-06T04:04:55.403Z",
+        "updated_at": "2023-09-05T09:23:04.005Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5632670a-aded-41a0-b97b-5aec0f6e2d10",
+        "name": "Sandy Beaches",
+        "description": "Relax and unwind on pristine sandy beaches",
+        "location": "Bora Bora",
+        "created_at": "2023-09-06T04:37:56.860Z",
+        "updated_at": "2023-09-05T15:34:26.854Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8674a113-81af-4b5d-889a-ee6c0654917c",
+        "name": "Enchanting Countryside",
+        "description": "Immerse yourself in the tranquility of the enchanting countryside",
+        "location": "Cotswolds, England",
+        "created_at": "2023-09-05T14:27:29.401Z",
+        "updated_at": "2023-09-06T07:25:26.875Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "itinerary": [
+      {
+        "id": "81a4229d-722a-4d04-bf75-804520e3be51",
+        "start_date": "2023-09-05T22:46:02.024Z",
+        "end_date": "2023-09-05T13:38:12.362Z",
+        "total_days": 13460,
+        "total_pax": 35375,
+        "created_at": "2023-09-06T05:30:14.256Z",
+        "updated_at": "2023-09-05T08:38:49.986Z",
+        "destination_id": "61f2349a-43cf-4474-b666-72c13779e511",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23c9bbc6-6bfc-4ea8-852b-fca49afb5d4f",
+        "start_date": "2023-09-05T19:19:36.863Z",
+        "end_date": "2023-09-05T17:21:15.550Z",
+        "total_days": 35996,
+        "total_pax": 14691,
+        "created_at": "2023-09-06T02:48:22.689Z",
+        "updated_at": "2023-09-05T23:42:35.484Z",
+        "destination_id": "dad37c6a-da68-415b-8fdb-dd7a022d8d49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86c0f5ef-bc05-4494-99f1-89784ae4213d",
+        "start_date": "2023-09-05T14:47:55.934Z",
+        "end_date": "2023-09-05T19:53:54.732Z",
+        "total_days": 76765,
+        "total_pax": 67479,
+        "created_at": "2023-09-05T15:24:12.744Z",
+        "updated_at": "2023-09-06T00:01:47.133Z",
+        "destination_id": "149f850d-91ce-4082-b881-0c85ea242885",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "893f59de-d1ca-407e-84a0-19c4d984301b",
+        "start_date": "2023-09-06T07:23:21.419Z",
+        "end_date": "2023-09-06T03:11:51.493Z",
+        "total_days": 93202,
+        "total_pax": 75521,
+        "created_at": "2023-09-05T23:41:08.040Z",
+        "updated_at": "2023-09-06T06:12:51.408Z",
+        "destination_id": "dad37c6a-da68-415b-8fdb-dd7a022d8d49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3acffb2c-88df-4796-b186-7bfd305acd71",
+        "start_date": "2023-09-05T17:41:06.830Z",
+        "end_date": "2023-09-05T12:46:28.710Z",
+        "total_days": 10555,
+        "total_pax": 81275,
+        "created_at": "2023-09-06T07:30:18.555Z",
+        "updated_at": "2023-09-06T00:56:11.911Z",
+        "destination_id": "8674a113-81af-4b5d-889a-ee6c0654917c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "quote": [
+      {
+        "id": "8f74815e-514c-4731-8ebf-d53d9f0cdd53",
+        "total_price": 3591,
+        "created_at": "2023-09-05T16:29:58.524Z",
+        "updated_at": "2023-09-05T22:45:15.769Z",
+        "itinerary_id": "23c9bbc6-6bfc-4ea8-852b-fca49afb5d4f"
+      },
+      {
+        "id": "76af6553-87c1-4b41-bc1a-5b1899e8ffae",
+        "total_price": 1637,
+        "created_at": "2023-09-05T13:49:54.342Z",
+        "updated_at": "2023-09-05T10:40:24.007Z",
+        "itinerary_id": "81a4229d-722a-4d04-bf75-804520e3be51"
+      },
+      {
+        "id": "f24648e3-2738-4b48-b6be-db0dcef8670f",
+        "total_price": 70154,
+        "created_at": "2023-09-06T04:05:54.075Z",
+        "updated_at": "2023-09-05T17:56:31.392Z",
+        "itinerary_id": "81a4229d-722a-4d04-bf75-804520e3be51"
+      },
+      {
+        "id": "dafeca12-5042-49e2-823e-4ac23e59579f",
+        "total_price": 87526,
+        "created_at": "2023-09-05T15:30:04.749Z",
+        "updated_at": "2023-09-06T02:02:48.002Z",
+        "itinerary_id": "3acffb2c-88df-4796-b186-7bfd305acd71"
+      },
+      {
+        "id": "b846a921-bd20-4f65-868d-2fcc3c216d25",
+        "total_price": 37471,
+        "created_at": "2023-09-06T04:45:19.242Z",
+        "updated_at": "2023-09-05T15:53:26.024Z",
+        "itinerary_id": "86c0f5ef-bc05-4494-99f1-89784ae4213d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d662d7dc-ef5d-4c8f-ad38-64a95e48f9e7",
+        "email": "Kelly45@hotmail.com",
+        "firstName": "Margie",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40575935",
+        "tenantId": null
+      },
+      {
+        "reference": "d8632f71-13c2-49d6-bad1-0573d914c38a",
+        "email": "Dale85@yahoo.com",
+        "firstName": "Hildegard",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/11.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "356f1c54-a0d8-471f-9ee0-82c5dde12aff",
+        "email": "Randi23@gmail.com",
+        "firstName": "Lowell",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43591278",
+        "tenantId": null
+      },
+      {
+        "reference": "5f33f08e-6feb-4aa7-8e2e-c480b5940ed8",
+        "email": "Melisa25@hotmail.com",
+        "firstName": "Ally",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/563.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "daaf8cb5-4ea9-4eb6-8873-fa851bcd6cd5",
+        "email": "Alphonso_Legros@hotmail.com",
+        "firstName": "Carrie",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14829221",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "788c4c61-2e0d-4830-8e5f-336ee0ac268d",
+        "name": "Grand Plaza Hotel",
+        "description": "A luxurious hotel with stunning views of the city skyline",
+        "location": "New York, USA",
+        "rating": 95218,
+        "created_at": "2023-09-05T19:56:55.277Z",
+        "updated_at": "2023-09-05T14:15:39.433Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d35d49ff-fa3c-4204-a022-23e704980fb4",
+        "name": "Sunset Beach Resort",
+        "description": "A beachfront resort offering relaxation and entertainment",
+        "location": "Miami, USA",
+        "rating": 77636,
+        "created_at": "2023-09-06T00:51:28.363Z",
+        "updated_at": "2023-09-05T18:33:27.126Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "29274afa-a89b-4f76-97ae-e59cd04b4b49",
+        "name": "Mountain View Lodge",
+        "description": "A cozy lodge nestled in the mountains",
+        "location": "Aspen, USA",
+        "rating": 77953,
+        "created_at": "2023-09-05T19:34:57.672Z",
+        "updated_at": "2023-09-05T14:07:33.186Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e4cfc099-c066-4f5c-b6da-ddafe966c5a6",
+        "name": "Ocean Breeze Inn",
+        "description": "A charming inn near the ocean with comfortable accommodations",
+        "location": "Hawaii, USA",
+        "rating": 96110,
+        "created_at": "2023-09-05T11:21:37.933Z",
+        "updated_at": "2023-09-05T23:25:23.271Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "258e1016-84b9-441b-bd53-0df0e64761e8",
+        "name": "City Center Suites",
+        "description": "A modern hotel located in the heart of the city",
+        "location": "Paris, France",
+        "rating": 74975,
+        "created_at": "2023-09-06T07:10:21.464Z",
+        "updated_at": "2023-09-05T18:07:00.976Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "destination": [
+      {
+        "id": "3a3a47ed-0cc5-4ed6-808a-a6767c8ee5b6",
+        "name": "Serenity Island",
+        "description": "A tranquil island paradise with pristine beaches",
+        "location": "Maldives",
+        "created_at": "2023-09-05T14:26:42.456Z",
+        "updated_at": "2023-09-05T19:25:52.611Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c02f1826-c925-4cdd-b3f4-a9f93e795732",
+        "name": "Majestic Mountains",
+        "description": "Breathtaking mountains with panoramic views",
+        "location": "Switzerland",
+        "created_at": "2023-09-05T21:52:59.823Z",
+        "updated_at": "2023-09-06T07:34:05.576Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4ba2a462-94d3-4651-86a5-7b38db97d6a3",
+        "name": "Enchanted Forest",
+        "description": "A magical forest filled with mystical creatures",
+        "location": "Canada",
+        "created_at": "2023-09-05T09:29:27.401Z",
+        "updated_at": "2023-09-05T09:45:20.064Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "865bce14-c9d9-402c-a807-8f151b04b24c",
+        "name": "Crystal Clear Waters",
+        "description": "Turquoise waters perfect for snorkeling and diving",
+        "location": "Malaysia",
+        "created_at": "2023-09-06T00:54:30.053Z",
+        "updated_at": "2023-09-06T07:24:42.569Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f82dc2b5-4cbb-4d9a-a1e7-3a2bcbc74149",
+        "name": "Historic City",
+        "description": "A city rich in history and cultural heritage",
+        "location": "Italy",
+        "created_at": "2023-09-06T04:45:53.266Z",
+        "updated_at": "2023-09-05T18:19:40.361Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "itinerary": [
+      {
+        "id": "f513e093-fb87-43ae-bcb0-dbf315bb8807",
+        "start_date": "2023-09-05T15:18:37.054Z",
+        "end_date": "2023-09-05T22:48:14.209Z",
+        "total_days": 40157,
+        "total_pax": 34581,
+        "created_at": "2023-09-05T22:04:59.166Z",
+        "updated_at": "2023-09-05T22:10:51.869Z",
+        "destination_id": "c02f1826-c925-4cdd-b3f4-a9f93e795732",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2185bc00-41f2-40dc-9083-6bfb04026589",
+        "start_date": "2023-09-06T01:28:53.772Z",
+        "end_date": "2023-09-06T05:38:56.488Z",
+        "total_days": 12845,
+        "total_pax": 66322,
+        "created_at": "2023-09-05T19:09:56.402Z",
+        "updated_at": "2023-09-05T23:36:20.225Z",
+        "destination_id": "3a3a47ed-0cc5-4ed6-808a-a6767c8ee5b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "325c92d9-a374-48f9-b5bf-47d5b27db9f8",
+        "start_date": "2023-09-06T06:51:28.943Z",
+        "end_date": "2023-09-05T15:05:03.396Z",
+        "total_days": 99844,
+        "total_pax": 34450,
+        "created_at": "2023-09-05T10:02:35.177Z",
+        "updated_at": "2023-09-06T06:02:40.695Z",
+        "destination_id": "865bce14-c9d9-402c-a807-8f151b04b24c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ccabbf2-5e06-4bcf-82df-4e9ae5fb8e60",
+        "start_date": "2023-09-06T02:49:30.468Z",
+        "end_date": "2023-09-05T20:57:14.853Z",
+        "total_days": 27189,
+        "total_pax": 14898,
+        "created_at": "2023-09-05T18:04:18.886Z",
+        "updated_at": "2023-09-05T17:18:18.789Z",
+        "destination_id": "3a3a47ed-0cc5-4ed6-808a-a6767c8ee5b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42a52e0a-ec60-469d-86d5-41354d36d1b1",
+        "start_date": "2023-09-05T18:26:28.625Z",
+        "end_date": "2023-09-05T15:24:59.912Z",
+        "total_days": 51392,
+        "total_pax": 87083,
+        "created_at": "2023-09-06T03:12:17.503Z",
+        "updated_at": "2023-09-06T00:10:23.832Z",
+        "destination_id": "865bce14-c9d9-402c-a807-8f151b04b24c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "quote": [
+      {
+        "id": "c56a0ed0-db08-43b4-9a7c-4ed70a2e27f8",
+        "total_price": 31330,
+        "created_at": "2023-09-06T04:14:43.020Z",
+        "updated_at": "2023-09-05T14:31:36.638Z",
+        "itinerary_id": "f513e093-fb87-43ae-bcb0-dbf315bb8807"
+      },
+      {
+        "id": "d210af99-d2b7-47a4-b402-1564f516ad91",
+        "total_price": 8336,
+        "created_at": "2023-09-05T17:31:55.117Z",
+        "updated_at": "2023-09-05T15:55:41.850Z",
+        "itinerary_id": "325c92d9-a374-48f9-b5bf-47d5b27db9f8"
+      },
+      {
+        "id": "34ede5d9-71b5-45fb-89a1-3fb5c1fbbd49",
+        "total_price": 12121,
+        "created_at": "2023-09-05T11:47:32.552Z",
+        "updated_at": "2023-09-05T13:52:36.432Z",
+        "itinerary_id": "5ccabbf2-5e06-4bcf-82df-4e9ae5fb8e60"
+      },
+      {
+        "id": "a2c7fdb0-0ce8-428d-bfb9-c95ea856cacf",
+        "total_price": 89185,
+        "created_at": "2023-09-05T23:42:21.026Z",
+        "updated_at": "2023-09-05T12:06:57.199Z",
+        "itinerary_id": "f513e093-fb87-43ae-bcb0-dbf315bb8807"
+      },
+      {
+        "id": "030ee673-1dc7-4fc0-b7d3-09e78c4e634d",
+        "total_price": 5696,
+        "created_at": "2023-09-06T01:11:37.027Z",
+        "updated_at": "2023-09-05T21:50:10.573Z",
+        "itinerary_id": "5ccabbf2-5e06-4bcf-82df-4e9ae5fb8e60"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "28a40bd7-0373-481c-9399-6ca879ff98b8",
+        "email": "Josefa_Upton@gmail.com",
+        "firstName": "Madie",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86989817",
+        "tenantId": null
+      },
+      {
+        "reference": "b3e1601f-f085-4b9c-8fa8-c805c9cd8745",
+        "email": "Melba.Sipes@hotmail.com",
+        "firstName": "Barbara",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/172.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5b766603-a33e-4e09-bdcb-02071efaaf1e",
+        "email": "Nasir21@yahoo.com",
+        "firstName": "Julia",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74092563",
+        "tenantId": null
+      },
+      {
+        "reference": "6fe7f1d2-26cb-4cee-bfcd-b3e3172d69c5",
+        "email": "Kayleigh.DuBuque23@gmail.com",
+        "firstName": "April",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/904.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80816b43-55de-4e92-b032-4d672395b6f6",
+        "email": "Osvaldo53@yahoo.com",
+        "firstName": "Bryana",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/53.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "hotel": [
+      {
+        "id": "2b6e51d7-e6d2-4aae-b543-c0d8a168a426",
+        "name": "Grand View Hotel",
+        "description": "Luxury hotel with breathtaking views of the city skyline",
+        "location": "New York City",
+        "rating": 97343,
+        "created_at": "2023-09-05T18:44:27.532Z",
+        "updated_at": "2023-09-05T09:55:28.977Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "88955531-e298-44c6-b1d7-4263dcc0dffe",
+        "name": "Sunset Resort",
+        "description": "Secluded beachfront resort offering ultimate relaxation",
+        "location": "Hawaii",
+        "rating": 64225,
+        "created_at": "2023-09-06T04:59:10.954Z",
+        "updated_at": "2023-09-05T15:18:53.293Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3c92ef10-68e7-4490-b359-afac405cc66f",
+        "name": "Mountain Retreat",
+        "description": "Cozy lodge nestled in the heart of the mountains",
+        "location": "Aspen",
+        "rating": 65823,
+        "created_at": "2023-09-05T20:38:11.635Z",
+        "updated_at": "2023-09-06T06:59:05.806Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9da0426c-da57-4bd5-9ac2-d2283b1dd667",
+        "name": "Ocean Breeze Inn",
+        "description": "Charming inn steps away from the ocean",
+        "location": "Maldives",
+        "rating": 44659,
+        "created_at": "2023-09-05T15:56:11.121Z",
+        "updated_at": "2023-09-05T08:14:55.539Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3eeb6427-4ad5-4147-83e2-dc9a92c13ae2",
+        "name": "City Center Suites",
+        "description": "Modern suites in the bustling city center",
+        "location": "Paris",
+        "rating": 34466,
+        "created_at": "2023-09-06T04:24:00.424Z",
+        "updated_at": "2023-09-05T12:26:56.103Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "destination": [
+      {
+        "id": "e40b8517-8162-4bdc-9f0a-0163eefad7e9",
+        "name": "Serenity Island",
+        "description": "Unspoiled island paradise with crystal-clear waters",
+        "location": "Caribbean",
+        "created_at": "2023-09-05T21:06:08.608Z",
+        "updated_at": "2023-09-05T18:33:48.166Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4769633b-dc4b-4982-a5eb-0b2e631d54c9",
+        "name": "Majestic Mountains",
+        "description": "Majestic mountains offering breathtaking hiking trails",
+        "location": "Switzerland",
+        "created_at": "2023-09-06T06:26:33.082Z",
+        "updated_at": "2023-09-05T15:08:58.052Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "567c5131-d0eb-4662-a635-6f707e66c386",
+        "name": "Cultural Capital",
+        "description": "Vibrant city known for its rich cultural heritage",
+        "location": "Rome",
+        "created_at": "2023-09-06T01:14:36.097Z",
+        "updated_at": "2023-09-05T15:39:52.064Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8707b6f2-787f-45dc-93dc-3e78bf63b891",
+        "name": "Tropical Paradise",
+        "description": "Exotic destination with pristine beaches and lush jungles",
+        "location": "Bali",
+        "created_at": "2023-09-06T01:05:41.194Z",
+        "updated_at": "2023-09-05T23:42:24.444Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fb8db464-e20c-4dd2-a023-f545bca8d202",
+        "name": "Historic Town",
+        "description": "Quaint town filled with historic landmarks and charming architecture",
+        "location": "Prague",
+        "created_at": "2023-09-06T01:50:38.755Z",
+        "updated_at": "2023-09-05T12:55:21.970Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "itinerary": [
+      {
+        "id": "9eade9fa-8b3d-44e7-8822-f358db84b632",
+        "start_date": "2023-09-06T03:36:27.672Z",
+        "end_date": "2023-09-06T02:17:34.209Z",
+        "total_days": 14800,
+        "total_pax": 97410,
+        "created_at": "2023-09-05T19:25:23.970Z",
+        "updated_at": "2023-09-05T21:15:53.213Z",
+        "destination_id": "8707b6f2-787f-45dc-93dc-3e78bf63b891",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2aab6965-14cd-4580-847f-13b418acb728",
+        "start_date": "2023-09-05T18:23:08.517Z",
+        "end_date": "2023-09-06T04:36:13.879Z",
+        "total_days": 93903,
+        "total_pax": 62009,
+        "created_at": "2023-09-05T10:24:27.696Z",
+        "updated_at": "2023-09-06T04:03:16.024Z",
+        "destination_id": "e40b8517-8162-4bdc-9f0a-0163eefad7e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "443cc6c7-c811-4569-94b7-84a1b61e6962",
+        "start_date": "2023-09-05T20:58:59.887Z",
+        "end_date": "2023-09-06T00:16:01.306Z",
+        "total_days": 55207,
+        "total_pax": 83234,
+        "created_at": "2023-09-05T15:09:25.257Z",
+        "updated_at": "2023-09-06T07:27:58.425Z",
+        "destination_id": "e40b8517-8162-4bdc-9f0a-0163eefad7e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "624b8a68-7d31-486e-9ab1-d6bd41e67bd1",
+        "start_date": "2023-09-05T22:53:30.870Z",
+        "end_date": "2023-09-05T17:11:00.206Z",
+        "total_days": 25995,
+        "total_pax": 83950,
+        "created_at": "2023-09-05T19:31:42.750Z",
+        "updated_at": "2023-09-05T20:13:42.526Z",
+        "destination_id": "8707b6f2-787f-45dc-93dc-3e78bf63b891",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56000cd0-ed2e-4de8-923c-248d1ad59bc2",
+        "start_date": "2023-09-05T14:00:42.144Z",
+        "end_date": "2023-09-06T07:01:23.709Z",
+        "total_days": 16408,
+        "total_pax": 55376,
+        "created_at": "2023-09-05T16:30:44.688Z",
+        "updated_at": "2023-09-06T04:18:24.129Z",
+        "destination_id": "567c5131-d0eb-4662-a635-6f707e66c386",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "quote": [
+      {
+        "id": "e32c4c14-a43d-42ef-a6f0-5a59e14b951c",
+        "total_price": 13317,
+        "created_at": "2023-09-05T09:17:57.272Z",
+        "updated_at": "2023-09-05T12:41:14.448Z",
+        "itinerary_id": "9eade9fa-8b3d-44e7-8822-f358db84b632"
+      },
+      {
+        "id": "e7bcb467-b627-4190-8910-b8b9a425d60f",
+        "total_price": 30922,
+        "created_at": "2023-09-05T16:29:06.410Z",
+        "updated_at": "2023-09-05T15:10:09.258Z",
+        "itinerary_id": "56000cd0-ed2e-4de8-923c-248d1ad59bc2"
+      },
+      {
+        "id": "6f525fb8-d35f-4c1f-93ea-89b51e92eb92",
+        "total_price": 38191,
+        "created_at": "2023-09-05T14:02:26.548Z",
+        "updated_at": "2023-09-06T01:34:43.221Z",
+        "itinerary_id": "9eade9fa-8b3d-44e7-8822-f358db84b632"
+      },
+      {
+        "id": "24abc51a-b203-483b-9aea-61302f67b740",
+        "total_price": 62813,
+        "created_at": "2023-09-06T01:27:49.567Z",
+        "updated_at": "2023-09-05T13:30:12.635Z",
+        "itinerary_id": "443cc6c7-c811-4569-94b7-84a1b61e6962"
+      },
+      {
+        "id": "e9ce4295-ca31-4c67-88e8-f0fbdd45e1ed",
+        "total_price": 44863,
+        "created_at": "2023-09-06T05:25:51.581Z",
+        "updated_at": "2023-09-05T23:11:27.337Z",
+        "itinerary_id": "443cc6c7-c811-4569-94b7-84a1b61e6962"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6988a4e9-7715-4f9f-9de9-cddf09d1547d",
+        "email": "Dante.Kub72@hotmail.com",
+        "firstName": "Ada",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/896.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a96f1c7e-8b3f-4b39-8e2f-4b4ad720361c",
+        "email": "Rory.Wilkinson@hotmail.com",
+        "firstName": "Lily",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34422886",
+        "tenantId": null
+      },
+      {
+        "reference": "d7c7534c-0dcd-43ad-accb-f22983a38da1",
+        "email": "Shayna32@hotmail.com",
+        "firstName": "Braulio",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/227.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4b467c40-7f22-454a-bb0d-6fa1b89dc99d",
+        "email": "Maggie.Lockman@gmail.com",
+        "firstName": "Bailee",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46663082",
+        "tenantId": null
+      },
+      {
+        "reference": "a04cf826-bc43-409d-aa55-8fead421f804",
+        "email": "Florence.Casper@gmail.com",
+        "firstName": "Garrison",
+        "lastName": "Daniel-Bergstrom",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70424215",
+        "tenantId": null
+      }
+    ]
+  }
+]
